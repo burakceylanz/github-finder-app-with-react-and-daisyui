@@ -4,7 +4,7 @@ import GithubContext from '../context/github/GithubContext'
 import { Link } from 'react-router-dom'
 import Spinner from '../Components/Layout/Spinner'
 import { useParams } from 'react-router-dom'
-import RepoList from '../Components/Repo/RepoList'
+import RepoList from '../Components/RepoList/RepoList'
 import { getUserAndRepos } from '../context/github/GithubActions'
 
 function User() {
